@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,11 @@ namespace IHC
 {
     public partial class Preg_res : Form
     {
+        ArrayList preguntas = new ArrayList();
         public Preg_res()
         {
             InitializeComponent();
+            
         }
 
         private void RDrespuesta2_CheckedChanged(object sender, EventArgs e)
@@ -55,6 +58,11 @@ namespace IHC
                 RDrespuesta3.Checked = false;
                 RDrespuesta1.Checked = false;
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
