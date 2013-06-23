@@ -9,3 +9,13 @@ D:\Usuarios\JEAN\Mis documentos\GitHub\IHC_Teoria\IHC\IHC\obj\Debug\IHC.Resultad
 D:\Usuarios\JEAN\Mis documentos\GitHub\IHC_Teoria\IHC\IHC\obj\Debug\IHC.csproj.GenerateResource.Cache
 D:\Usuarios\JEAN\Mis documentos\GitHub\IHC_Teoria\IHC\IHC\obj\Debug\IHC.exe
 D:\Usuarios\JEAN\Mis documentos\GitHub\IHC_Teoria\IHC\IHC\obj\Debug\IHC.pdb
+C:\Users\alejandro\Documents\GitHub\IHC_Teoria\IHC\IHC\obj\Debug\IHC.exe
+C:\Users\alejandro\Documents\GitHub\IHC_Teoria\IHC\IHC\obj\Debug\IHC.pdb
+C:\Users\alejandro\Documents\GitHub\IHC_Teoria\IHC\IHC\obj\Debug\IHC.csprojResolveAssemblyReference.cache
+C:\Users\alejandro\Documents\GitHub\IHC_Teoria\IHC\IHC\obj\Debug\IHC.Form1.resources
+C:\Users\alejandro\Documents\GitHub\IHC_Teoria\IHC\IHC\obj\Debug\IHC.Preg_res.resources
+C:\Users\alejandro\Documents\GitHub\IHC_Teoria\IHC\IHC\obj\Debug\IHC.Properties.Resources.resources
+C:\Users\alejandro\Documents\GitHub\IHC_Teoria\IHC\IHC\obj\Debug\IHC.Resultado.resources
+C:\Users\alejandro\Documents\GitHub\IHC_Teoria\IHC\IHC\obj\Debug\IHC.csproj.GenerateResource.Cache
+C:\Users\alejandro\Documents\GitHub\IHC_Teoria\IHC\IHC\bin\Debug\IHC.exe
+C:\Users\alejandro\Documents\GitHub\IHC_Teoria\IHC\IHC\bin\Debug\IHC.pdb
