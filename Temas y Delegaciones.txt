@@ -1,0 +1,55 @@
+***************************
+Metal:
+Pregunta:
+	Colores 
+	Formas
+	Iconos	
+Pregunta:
+	Cultura
+***************************
+Jeanpi
+Pregunta:
+	Internacionalizacion
+	Localizacion
+	Ubicacion
+	Problemas de lenguaje
+Pregunta:
+	Computacion Obicua
+	Realidad Aumentada
+***************************
+Pollo:
+Pregunta:
+	Metaforas
+Pregunta:	
+	Accesibilidad
+	Discapacidades en general
+***************************
+Jack:
+Pregunta:
+	Navegacion
+Pregutna:
+	Principios IBM
+	1. Simplicidad
+	2. Apoyo
+	3. Familiaridad
+	4. Evidencia
+	5. Estímulo
+	6. Satisfacción
+	7. Disponibilidad
+	8. Seguridad
+	9. Versatilidad
+	10. Personalización
+	11. Afinidad
+Pregunta:
+	Usabilidad:
+	1. Facilidad de aprendizaje
+	2. Flexibilidad
+	3. Consistencia
+	4. Robustez
+	5. Recuperabilidad
+	6. Tiempo de respuesta
+	7. Adecuación de las tareas
+	8. Disminución de la carga cognitiva
+***************************
+
+
