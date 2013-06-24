@@ -19,3 +19,4 @@ C:\Users\alejandro\Documents\GitHub\IHC_Teoria\IHC\IHC\obj\Debug\IHC.Resultado.r
 C:\Users\alejandro\Documents\GitHub\IHC_Teoria\IHC\IHC\obj\Debug\IHC.csproj.GenerateResource.Cache
 C:\Users\alejandro\Documents\GitHub\IHC_Teoria\IHC\IHC\bin\Debug\IHC.exe
 C:\Users\alejandro\Documents\GitHub\IHC_Teoria\IHC\IHC\bin\Debug\IHC.pdb
+D:\Usuarios\JEAN\Mis documentos\GitHub\IHC_Teoria\IHC\IHC\obj\Debug\IHC.csprojResolveAssemblyReference.cache

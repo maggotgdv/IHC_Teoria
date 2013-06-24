@@ -60,10 +60,10 @@
             this.RDrespuesta2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RDrespuesta2.Location = new System.Drawing.Point(96, 181);
             this.RDrespuesta2.Name = "RDrespuesta2";
-            this.RDrespuesta2.Size = new System.Drawing.Size(46, 25);
+            this.RDrespuesta2.Size = new System.Drawing.Size(49, 25);
             this.RDrespuesta2.TabIndex = 1;
             this.RDrespuesta2.TabStop = true;
-            this.RDrespuesta2.Text = "no";
+            this.RDrespuesta2.Text = "No";
             this.RDrespuesta2.UseVisualStyleBackColor = true;
             this.RDrespuesta2.CheckedChanged += new System.EventHandler(this.RDrespuesta2_CheckedChanged_1);
             // 
@@ -73,10 +73,10 @@
             this.RDrespuesta1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RDrespuesta1.Location = new System.Drawing.Point(96, 147);
             this.RDrespuesta1.Name = "RDrespuesta1";
-            this.RDrespuesta1.Size = new System.Drawing.Size(39, 25);
+            this.RDrespuesta1.Size = new System.Drawing.Size(41, 25);
             this.RDrespuesta1.TabIndex = 2;
             this.RDrespuesta1.TabStop = true;
-            this.RDrespuesta1.Text = "si";
+            this.RDrespuesta1.Text = "Si";
             this.RDrespuesta1.UseVisualStyleBackColor = true;
             this.RDrespuesta1.CheckedChanged += new System.EventHandler(this.RDrespuesta2_CheckedChanged);
             // 

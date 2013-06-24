@@ -23,18 +23,34 @@ namespace IHC
         public Preg_res()
         {
             InitializeComponent();
-
+            //Metal
             preguntas.Add( "Ponga Mucha énfasis en lo siguiente: \n mire fijamente su texto por 15 segundos, se vé mas borroso el texto?");
             sino.Add("si");
-            resp.Add("deveria cambiar su color a uno con menos azul en su composición");
-            comentario.Add("trate de usar colores e iconos estandarizados");
+            resp.Add("Deveria cambiar su color a uno con menos azul en su composición");
+            comentario.Add("Trate de usar colores e iconos estandarizados");
 
 
 
-            preguntas.Add( "si su aplicación esta dirigida a varios paises: \n Ud. A investigado sobre lo que significa sus iconos y textos en dichos paises?");
+            preguntas.Add( "Si su aplicación esta dirigida a varios paises: \n Ud. A investigado sobre lo que significa sus iconos y textos en dichos paises?");
             sino.Add("no");
             resp.Add( "Deveria investigar lo antes dicho debido a que en alguno de esos países puede ser tomado como algo impropio según su cultura");
-            comentario.Add("trate de utilizar iconos comunes en todo el mundo");
+            comentario.Add("Trate de utilizar iconos comunes en todo el mundo");
+            //TuPapa
+            preguntas.Add("Su producto contiene simbolos?");
+            sino.Add("si");
+            resp.Add("Investigue con los iconos y simbolos que existen en su sistema.");
+            comentario.Add("Para algunas culturas algunos simbolos son ofensivos.");
+
+            preguntas.Add("Su producto contiene varios idiomas?");
+            sino.Add("no");
+            resp.Add("Debe saber que su software esta limitado para usuarios de su mismo idioma.");
+            comentario.Add("Si usted desea que su sistema sea internacionalizado debera modificar ciertos criteros.");
+
+
+            preguntas.Add("Su sistema es una guia interactiva?");
+            sino.Add("si");
+            resp.Add("Si su software es interactivo debera incluir algunas opciones para que este sea mas atractivo");
+            comentario.Add("Se recomienda incluir dispositivos externos para una mayor experiencia de usuario.");
         }
 
         private void RDrespuesta2_CheckedChanged(object sender, EventArgs e)
@@ -54,16 +70,6 @@ namespace IHC
                 radios = "no";
             }
         }
-
-        private void RDrespuesta3_CheckedChanged(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void RDrespuesta4_CheckedChanged(object sender, EventArgs e)
-        {
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             if (sino[cont].ToString() == radios)
@@ -71,7 +77,7 @@ namespace IHC
                 conjunto.Add(cont);
             }
             cont++;
-            if (cont == 1)
+            if (cont == 1) // tope de preguntas
             {
                 preg.Text = preguntas[cont].ToString();
             }
