@@ -48,7 +48,7 @@
             this.preg.AutoSize = true;
             this.preg.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.preg.ForeColor = System.Drawing.Color.White;
-            this.preg.Location = new System.Drawing.Point(71, 71);
+            this.preg.Location = new System.Drawing.Point(71, 58);
             this.preg.Name = "preg";
             this.preg.Size = new System.Drawing.Size(42, 21);
             this.preg.TabIndex = 0;
@@ -83,7 +83,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(1035, 243);
+            this.button2.Location = new System.Drawing.Point(466, 247);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(156, 23);
             this.button2.TabIndex = 6;
@@ -150,9 +150,9 @@
             this.panel3.Controls.Add(this.panel1);
             this.panel3.Controls.Add(this.RDrespuesta2);
             this.panel3.Controls.Add(this.RDrespuesta1);
-            this.panel3.Location = new System.Drawing.Point(4, 0);
+            this.panel3.Location = new System.Drawing.Point(1, 6);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1203, 281);
+            this.panel3.Size = new System.Drawing.Size(654, 281);
             this.panel3.TabIndex = 10;
             // 
             // Preg_res
@@ -160,7 +160,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1207, 282);
+            this.ClientSize = new System.Drawing.Size(645, 292);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Name = "Preg_res";
