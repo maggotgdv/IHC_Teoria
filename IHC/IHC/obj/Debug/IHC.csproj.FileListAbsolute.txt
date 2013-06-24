@@ -20,3 +20,6 @@ C:\Users\alejandro\Documents\GitHub\IHC_Teoria\IHC\IHC\obj\Debug\IHC.csproj.Gene
 C:\Users\alejandro\Documents\GitHub\IHC_Teoria\IHC\IHC\bin\Debug\IHC.exe
 C:\Users\alejandro\Documents\GitHub\IHC_Teoria\IHC\IHC\bin\Debug\IHC.pdb
 D:\Usuarios\JEAN\Mis documentos\GitHub\IHC_Teoria\IHC\IHC\obj\Debug\IHC.csprojResolveAssemblyReference.cache
+C:\Users\calderon\Documents\GitHub\IHC_Teoria\IHC\IHC\bin\Debug\IHC.exe.config
+C:\Users\calderon\Documents\GitHub\IHC_Teoria\IHC\IHC\obj\Debug\IHC.exe
+C:\Users\calderon\Documents\GitHub\IHC_Teoria\IHC\IHC\obj\Debug\IHC.pdb
