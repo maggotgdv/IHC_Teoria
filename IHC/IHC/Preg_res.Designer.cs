@@ -28,75 +28,79 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.pregunta = new System.Windows.Forms.Label();
+            this.RDrespuesta2 = new System.Windows.Forms.RadioButton();
+            this.RDrespuesta1 = new System.Windows.Forms.RadioButton();
+            this.RDrespuesta3 = new System.Windows.Forms.RadioButton();
+            this.RDrespuesta4 = new System.Windows.Forms.RadioButton();
             this.button2 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // pregunta
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(71, 71);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 21);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.pregunta.AutoSize = true;
+            this.pregunta.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pregunta.ForeColor = System.Drawing.Color.White;
+            this.pregunta.Location = new System.Drawing.Point(71, 71);
+            this.pregunta.Name = "pregunta";
+            this.pregunta.Size = new System.Drawing.Size(52, 21);
+            this.pregunta.TabIndex = 0;
+            this.pregunta.Text = "label1";
             // 
-            // radioButton1
+            // RDrespuesta2
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(75, 170);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(119, 25);
-            this.radioButton1.TabIndex = 1;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.RDrespuesta2.AutoSize = true;
+            this.RDrespuesta2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RDrespuesta2.Location = new System.Drawing.Point(75, 170);
+            this.RDrespuesta2.Name = "RDrespuesta2";
+            this.RDrespuesta2.Size = new System.Drawing.Size(119, 25);
+            this.RDrespuesta2.TabIndex = 1;
+            this.RDrespuesta2.TabStop = true;
+            this.RDrespuesta2.Text = "radioButton1";
+            this.RDrespuesta2.UseVisualStyleBackColor = true;
+            this.RDrespuesta2.CheckedChanged += new System.EventHandler(this.RDrespuesta2_CheckedChanged_1);
             // 
-            // radioButton2
+            // RDrespuesta1
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(75, 136);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(119, 25);
-            this.radioButton2.TabIndex = 2;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "radioButton2";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.RDrespuesta1.AutoSize = true;
+            this.RDrespuesta1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RDrespuesta1.Location = new System.Drawing.Point(75, 136);
+            this.RDrespuesta1.Name = "RDrespuesta1";
+            this.RDrespuesta1.Size = new System.Drawing.Size(119, 25);
+            this.RDrespuesta1.TabIndex = 2;
+            this.RDrespuesta1.TabStop = true;
+            this.RDrespuesta1.Text = "radioButton2";
+            this.RDrespuesta1.UseVisualStyleBackColor = true;
+            this.RDrespuesta1.CheckedChanged += new System.EventHandler(this.RDrespuesta2_CheckedChanged);
             // 
-            // radioButton3
+            // RDrespuesta3
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.Location = new System.Drawing.Point(75, 205);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(119, 25);
-            this.radioButton3.TabIndex = 3;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "radioButton3";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.RDrespuesta3.AutoSize = true;
+            this.RDrespuesta3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RDrespuesta3.Location = new System.Drawing.Point(75, 205);
+            this.RDrespuesta3.Name = "RDrespuesta3";
+            this.RDrespuesta3.Size = new System.Drawing.Size(119, 25);
+            this.RDrespuesta3.TabIndex = 3;
+            this.RDrespuesta3.TabStop = true;
+            this.RDrespuesta3.Text = "radioButton3";
+            this.RDrespuesta3.UseVisualStyleBackColor = true;
+            this.RDrespuesta3.CheckedChanged += new System.EventHandler(this.RDrespuesta3_CheckedChanged);
             // 
-            // radioButton4
+            // RDrespuesta4
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton4.Location = new System.Drawing.Point(75, 238);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(119, 25);
-            this.radioButton4.TabIndex = 4;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "radioButton4";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.RDrespuesta4.AutoSize = true;
+            this.RDrespuesta4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RDrespuesta4.Location = new System.Drawing.Point(75, 238);
+            this.RDrespuesta4.Name = "RDrespuesta4";
+            this.RDrespuesta4.Size = new System.Drawing.Size(119, 25);
+            this.RDrespuesta4.TabIndex = 4;
+            this.RDrespuesta4.TabStop = true;
+            this.RDrespuesta4.Text = "radioButton4";
+            this.RDrespuesta4.UseVisualStyleBackColor = true;
+            this.RDrespuesta4.CheckedChanged += new System.EventHandler(this.RDrespuesta4_CheckedChanged);
             // 
             // button2
             // 
@@ -122,7 +126,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.pregunta);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -137,10 +141,10 @@
             this.ClientSize = new System.Drawing.Size(535, 373);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.radioButton4);
-            this.Controls.Add(this.radioButton3);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.RDrespuesta4);
+            this.Controls.Add(this.RDrespuesta3);
+            this.Controls.Add(this.RDrespuesta1);
+            this.Controls.Add(this.RDrespuesta2);
             this.Name = "Preg_res";
             this.Text = "Preg_res";
             this.panel1.ResumeLayout(false);
@@ -152,11 +156,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.Label pregunta;
+        private System.Windows.Forms.RadioButton RDrespuesta2;
+        private System.Windows.Forms.RadioButton RDrespuesta1;
+        private System.Windows.Forms.RadioButton RDrespuesta3;
+        private System.Windows.Forms.RadioButton RDrespuesta4;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
